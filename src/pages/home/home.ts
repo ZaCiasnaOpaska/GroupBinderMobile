@@ -11,4 +11,20 @@ export class HomePage {
 
   }
 
+  public updateCoordinates(): void {
+    
+  }
+
+  public makeCall(): void {
+
+  }
+
+  public emergencyCall(): void {
+
+  }
+
+  public userLostHandler(): void {
+
+  }
+
 }
