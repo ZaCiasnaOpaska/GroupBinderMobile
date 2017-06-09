@@ -2,6 +2,6 @@
 
 </ion-header>
 
-<button class="bigButton" style="background-color:sandybrown" ion-button full>ZGUBIŁEM SIĘ</button>
-<button class="bigButton" style="background-color:lightgreen" ion-button full>ZADZWOŃ DO OPIEKUNA</button>
-<button class="bigButton" style="background-color:lightcoral" ion-button full>SOS 999</button>
+<button class="bigButton" color="warningOrange" ion-button full (click)="userLostHandler()">ZGUBIŁEM SIĘ</button>
+<button class="bigButton" color="callGreen" ion-button full (click)="makeCall()">ZADZWOŃ DO OPIEKUNA</button>
+<button class="bigButton" color="sosRed" ion-button full (click)="emergencyCall()">SOS 999</button>
